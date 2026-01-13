@@ -107,3 +107,13 @@ body {
     margin-bottom: 10%;
     width: inherit;
 }
+
+.gallery {
+    display: flex;
+    gap: 16px;
+}
+
+.gallery img {
+    width: 275px;
+    height: auto;
+}
