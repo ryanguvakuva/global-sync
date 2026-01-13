@@ -109,11 +109,13 @@ body {
 }
 
 .gallery {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 16px;
 }
 
 .gallery img {
-    width: 275px;
-    height: auto;
+    width: 100%;
+    aspect-ratio: 1 / 1;   /* keeps same shape */
+    object-fit: cover;    /* no stretching */
 }
