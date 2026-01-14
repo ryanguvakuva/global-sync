@@ -47,6 +47,7 @@ body {
 
 .apply-button {
     text-align: center;
+    justify-content: center;
 }
 
 .apply-button:hover {
@@ -117,4 +118,5 @@ body {
     aspect-ratio: 1 / 1;   /* keeps same shape */
     object-fit: cover;    /* no stretching */
 }
+
 
