@@ -31,22 +31,16 @@ body {
 }
 
 .apply-button {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #007acc;   /* button color */
-    color: #fff;                 /* text color */
-    text-decoration: none;       /* remove underline */
-    border-radius: 5px;          /* rounded corners */
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    margin-left: 45%;
-    margin-bottom: 2%;
-
-}
-
-.apply-button {
-    text-align: center;
-    justify-content: center;
+  display: block;
+  padding: 12px 25px;
+  background-color: #007acc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 0 auto 2%;
+  text-align: center;
 }
 
 .apply-button:hover {
@@ -117,5 +111,6 @@ body {
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
+
 
 
