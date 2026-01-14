@@ -3,11 +3,11 @@ body {
 }
 
 .header img {
-    display: block;
-    margin: 0 auto;
     height: 150px;
     width: auto;
-    opacity: 80%;
+    opacity: 0.8;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -117,4 +117,5 @@ body {
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
+
 
